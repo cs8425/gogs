@@ -37,7 +37,7 @@ else
 
     mkdir /data/git/.ssh
     touch /data/git/.ssh/authorized_keys
-    chmod -R 0600 /data/git/.ssh
+    chmod -R 0700 /data/git/.ssh
     chown -R git:git /data/git/.ssh
     chown -R git:git /data /tmp .
 fi
