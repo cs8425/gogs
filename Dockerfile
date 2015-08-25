@@ -3,6 +3,7 @@ FROM scratch
 MAINTAINER e2tox <e2tox@microbox.io>
 
 ADD rootfs.tar      /
+ADD app/      /app
 ADD gogs.sh         /app/gogs.sh
 ADD sshd_config     /etc/default/sshd_config
 
