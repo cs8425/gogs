@@ -8,7 +8,7 @@ Microbox repackage Gogs from the latest source and make it into a solid and easy
 #### Launch gogs and persistent data to local
 
 ```
-docker run -d -p 22:22 -p 3000:3000 -v /data/gogs:/data microbox/gogs:latest --name gogs
+docker run -d -p 22:22 -p 3000:3000 -v /data/gogs:/data microbox/gogs:latest
 ```
 
 #### Upgrade to a newer version
@@ -16,7 +16,7 @@ docker run -d -p 22:22 -p 3000:3000 -v /data/gogs:/data microbox/gogs:latest --n
 ```
 docker stop gogs
 docker rm gogs
-docker run -d -p 22:22 -p 3000:3000 -v /data/gogs:/data microbox/gogs:latest --name gogs
+docker run -d -p 22:22 -p 3000:3000 -v /data/gogs:/data microbox/gogs:latest
 ```
 
 ### Name
